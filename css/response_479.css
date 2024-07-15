@@ -1,0 +1,482 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 26px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs .btn
+    {
+        width: 148px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        padding: 12px 0;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        margin-bottom: 8px;
+    }
+
+
+    .page_title.small
+    {
+        font-size: 26px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .page_head .dotted
+    {
+        width: 200px;
+    }
+
+
+    .page_head .img
+    {
+        left: -176px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 68px;
+    }
+
+
+    .first_section .data:before
+    {
+        right: 0;
+    }
+
+
+    .first_section .title small
+    {
+        font-size: 22px;
+    }
+
+
+    .first_section .title small:after
+    {
+        width: 100%;
+    }
+
+
+    .first_section .withuot
+    {
+        font-size: 11px;
+
+        margin-top: 52px;
+    }
+
+
+    .first_section .withuot b
+    {
+        font-size: 50px;
+    }
+
+
+    .first_section .author
+    {
+        width: 320px;
+        margin-top: 32px;
+    }
+
+
+    .first_section .author::before
+    {
+        right: 10px;
+    }
+
+
+
+    /*-------------
+        Courses
+    -------------*/
+    .courses .course .info
+    {
+        padding: 26px 38px 28px 22px;
+    }
+
+
+    .courses .course .name
+    {
+        font-size: 26px;
+    }
+
+
+    .courses .course .name a
+    {
+        width: calc(100% + 32px);
+        margin-left: -32px;
+        padding: 8px 20px 6px 32px;
+    }
+
+
+    .courses .course .desc
+    {
+        margin-top: 20px;
+        margin-bottom: 28px;
+    }
+
+
+    .courses .start a
+    {
+        font-size: 28px;
+
+        width: 320px;
+        height: 60px;
+    }
+
+
+
+    /*-----------------
+        Course info
+    -----------------*/
+    .course_info .image
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding-bottom: 100%;
+    }
+
+
+    .course_info .about .title .sep + *
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-------------
+        Banners
+    -------------*/
+    .banners .banner img
+    {
+        display: none;
+    }
+
+
+    .banners .banner img.mob
+    {
+        display: block;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article .thumb
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-bottom: 20px;
+        margin-left: -20px;
+        padding-bottom: 100%;
+    }
+
+
+    .articles .article .name
+    {
+        font-weight: 800;
+    }
+
+
+    .articles .article .name br
+    {
+        display: none;
+    }
+
+
+    .articles .article .info
+    {
+        font-size: 11px;
+    }
+
+
+    .articles .article .info > *
+    {
+        display: block;
+    }
+
+
+    .articles .article .info .icon
+    {
+        width: 20px;
+        height: 20px;
+        margin: 0 auto 8px;
+    }
+
+
+
+    /*------------------
+        About author
+    ------------------*/
+    .about_author .data
+    {
+        width: calc(100% - 20px);
+        margin-right: 0;
+        padding: 24px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .image
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding-bottom: 100%;
+    }
+
+
+    .article_info .tags > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .article_info .tags span
+    {
+        font-size: 12px;
+
+        min-width: 108px;
+        padding: 5px 12px 4px;
+    }
+
+
+    .article_info .head .info .icon
+    {
+        width: 22px;
+        height: 22px;
+        margin-right: 8px;
+    }
+
+
+    .article_info .head .info
+    {
+        font-size: 11px;
+
+        margin-top: 24px;
+    }
+
+
+    .article_info .head .info > *
+    {
+        display: block;
+    }
+
+
+    .article_info .head .info .icon
+    {
+        width: 20px;
+        height: 20px;
+        margin: 0 auto 8px;
+    }
+
+
+
+    /*-----------
+        Guide
+    -----------*/
+    .guide .image
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+    .guide .data
+    {
+        width: calc(100% - 48px);
+    }
+
+
+    .guide .pre_title
+    {
+        font-size: 14px;
+    }
+
+
+    .guide .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*----------------------
+        Related articles
+    ----------------------*/
+    .related_articles .row
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+
+    /*--------------
+        Comments
+    --------------*/
+    .comments .block_title
+    {
+        font-size: 26px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .comments .comment .name
+    {
+        display: block;
+    }
+
+
+    .comments .comment .date
+    {
+        display: block;
+
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .videos .video
+    {
+        padding: 48px 32px 64px;
+    }
+
+
+    .reviews .videos .video .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*---------------
+        Portfolio
+    ---------------*/
+    .portfolio .items .item
+    {
+        padding: 22px 32px 26px;
+    }
+
+
+
+    /*--------------
+        About me
+    --------------*/
+    .about_me .data .info
+    {
+        padding: 24px;
+    }
+
+
+    .about_me .data .items > *
+    {
+        padding-left: 28px;
+    }
+
+
+
+    /*-------------------------
+        Scientific activity
+    -------------------------*/
+    .scientific_activity .block_title
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*------------
+        Awards
+    ------------*/
+    .awards .data .items > *
+    {
+        padding-left: 28px;
+    }
+
+
+
+    /*-----------
+        Stars
+    -----------*/
+    .stars .head .desc
+    {
+        width: calc(100% - 170px);
+    }
+
+
+    .stars .head .title
+    {
+        font-size: 88px;
+    }
+
+
+    .stars .row
+    {
+        margin-left: 0;
+    }
+
+
+    .stars .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        My system
+    ---------------*/
+    .my_system .block_title
+    {
+        font-size: 36px;
+    }
+}

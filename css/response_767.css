@@ -1,0 +1,1845 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 36px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        min-height: 191px;
+        padding: 20px 0;
+    }
+
+
+    .page_title
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .page_title.small
+    {
+        font-size: 32px;
+
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+
+
+    .page_head .dotted
+    {
+        width: 240px;
+    }
+
+
+    .breadcrumbs
+    {
+        margin-top: 12px;
+    }
+
+
+    .page_head .img
+    {
+        left: -164px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .submit_btn
+    {
+        display: block;
+
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 24px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .text_block h2:before,
+    .text_block h2:after
+    {
+        display: none;
+    }
+
+
+    .text_block h3
+    {
+        font-size: 18px;
+
+        margin-bottom: 16px !important;
+    }
+
+
+    .text_block ul li,
+    .text_block ol li
+    {
+        padding-left: 32px;
+    }
+
+
+    .text_block ul li + li,
+    .text_block ol li + li
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+
+    .first_section .data:before
+    {
+        right: 20px;
+
+        width: 230px;
+        height: 42px;
+        margin-bottom: 0;
+    }
+
+
+    .first_section .data:after
+    {
+        top: 176px;
+
+        width: 63px;
+        height: 160px;
+    }
+
+
+    .first_section .title span
+    {
+        font-size: 42px;
+    }
+
+
+    .first_section .title small
+    {
+        font-size: 24px;
+    }
+
+
+    .first_section .title small:after
+    {
+        left: 50%;
+
+        width: 440px;
+        height: 20px;
+
+        transform: translateX(-50%);
+    }
+
+
+    .first_section .withuot
+    {
+        font-size: 11px;
+
+        margin-top: 52px;
+    }
+
+
+    .first_section .withuot b
+    {
+        font-size: 50px;
+    }
+
+
+    .first_section .author
+    {
+        width: 320px;
+        margin-top: 32px;
+    }
+
+
+    .first_section .author::before
+    {
+        right: 10px;
+    }
+
+
+
+    /*-------------
+        Welcome
+    -------------*/
+    .welcome
+    {
+        padding: 60px 0 420px;
+    }
+
+
+    .welcome .title
+    {
+        font-size: 42px;
+
+        display: block;
+
+        text-align: center;
+    }
+
+
+    .welcome .title small
+    {
+        font-size: 24px;
+    }
+
+
+    .welcome .title .sep + *
+    {
+        margin-left: 0;
+    }
+
+
+    .welcome .title .dotted
+    {
+        width: 240px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .welcome .text
+    {
+        width: calc(100% - 20px);
+        margin-top: 48px;
+        padding: 24px 28px;
+    }
+
+
+    .welcome .image
+    {
+        right: 0;
+        left: 0;
+
+        width: 308px;
+        margin: 0 auto;
+    }
+
+
+    .welcome .image:before
+    {
+        right: -24px;
+        bottom: 0;
+
+        width: 140px;
+        height: 360px;
+    }
+
+
+    .welcome .image:after
+    {
+        top: auto;
+        right: 0;
+        bottom: 40px;
+        left: 0;
+
+        margin: 0 auto;
+    }
+
+
+
+    /*---------------
+        My method
+    ---------------*/
+    .my_method .block_title
+    {
+        font-size: 42px;
+
+        display: block;
+
+        margin-bottom: 50px;
+
+        text-align: center;
+    }
+
+
+    .my_method .block_title small
+    {
+        font-size: 24px;
+    }
+
+
+    .my_method .block_title .dotted
+    {
+        width: 240px;
+        margin: 12px auto 0;
+    }
+
+
+    .my_method .block_title span
+    {
+        display: block;
+    }
+
+
+    .my_method .block_title .sep + *
+    {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+    .my_method .data .row
+    {
+        margin-bottom: -40px;
+        margin-left: 0;
+    }
+
+
+    .my_method .data .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .my_method .item:before
+    {
+        font-size: 212px;
+        line-height: 88%;
+    }
+
+
+    .my_method .item .name
+    {
+        font-size: 20px;
+    }
+
+
+    .my_method .item .desc
+    {
+        font-size: 14px;
+
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        margin-top: 32px;
+    }
+
+
+    .my_method .start
+    {
+        margin-top: 40px;
+    }
+
+
+    .my_method .start a
+    {
+        font-size: 24px;
+
+        width: 320px;
+        height: 60px;
+    }
+
+
+
+    /*--------------
+        About me
+    --------------*/
+    .about_me .block_title
+    {
+        font-size: 42px;
+
+        display: block;
+
+        margin-bottom: 540px;
+
+        text-align: center;
+    }
+
+
+    .about_me .block_title span
+    {
+        display: block;
+    }
+
+
+    .about_me .block_title small
+    {
+        font-size: 24px;
+        line-height: 130%;
+
+        display: block;
+    }
+
+
+    .about_me .block_title .dotted
+    {
+        width: 240px;
+        margin: 12px auto 0;
+    }
+
+
+    .about_me .block_title .sep + *
+    {
+        margin-top: 16px;
+    }
+
+
+
+    .about_me .stats .row
+    {
+        margin-bottom: -40px;
+        margin-left: 0;
+    }
+
+
+    .about_me .stats .row > *
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------------
+        Scientific activity
+    -------------------------*/
+    .scientific_activity
+    {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+
+    .scientific_activity .block_title
+    {
+        font-size: 42px;
+
+        display: block;
+
+        margin-bottom: 40px;
+
+        text-align: center;
+    }
+
+
+    .scientific_activity .block_title small
+    {
+        font-size: 24px;
+        line-height: 130%;
+
+        display: block;
+    }
+
+
+    .scientific_activity .block_title .dotted
+    {
+        width: 240px;
+        margin: 12px auto 0;
+    }
+
+
+    .scientific_activity .block_title .sep + *
+    {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+    .scientific_activity .block_title span
+    {
+        display: block;
+    }
+
+
+    .scientific_activity .section + .section
+    {
+        margin-top: 50px;
+    }
+
+
+    .scientific_activity .data
+    {
+        order: 1;
+
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .scientific_activity .image
+    {
+        order: 2;
+
+        margin: 0 auto;
+    }
+
+
+    .scientific_activity .image .info
+    {
+        line-height: 18px;
+
+        padding-left: 44px;
+    }
+
+
+
+    /*------------
+        Awards
+    ------------*/
+    .awards:before
+    {
+        height: calc(100% - 92px);
+    }
+
+
+    .awards .data
+    {
+        width: calc(100% - 30px);
+        padding: 24px 32px;
+        padding-left: 40px;
+    }
+
+
+    .awards .block_title
+    {
+        font-size: 42px;
+
+        display: block;
+
+        margin-bottom: 522px;
+
+        text-align: center;
+    }
+
+
+    .awards .block_title small
+    {
+        font-size: 24px;
+    }
+
+
+    .awards .block_title .dotted
+    {
+        width: 240px;
+        margin: 12px auto 0;
+    }
+
+
+    .awards .block_title .sep + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .awards .block_title span
+    {
+        display: block;
+    }
+
+
+    .awards .image
+    {
+        top: 262px;
+
+        width: 260px;
+        height: 490px;
+    }
+
+
+    .awards .data
+    {
+        padding: 24px;
+    }
+
+
+    .awards .data .items > *
+    {
+        padding-left: 30px;
+    }
+
+
+    .awards .link a
+    {
+        font-size: 24px;
+
+        width: 320px;
+        height: 60px;
+    }
+
+
+
+    /*-----------
+        Stars
+    -----------*/
+    .stars .block_title
+    {
+        font-size: 42px;
+
+        display: block;
+
+        margin-bottom: 40px;
+
+        text-align: center;
+    }
+
+
+    .stars .block_title .dotted
+    {
+        width: 240px;
+        margin: 12px auto 0;
+    }
+
+
+    .stars .block_title small
+    {
+        font-size: 24px;
+        line-height: 130%;
+
+        display: block;
+    }
+
+
+    .stars .block_title .sep + *
+    {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+    .stars .block_title span
+    {
+        display: block;
+    }
+
+
+    .stars .head
+    {
+        height: 485px;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+    .stars .head:after
+    {
+        top: 80px;
+        right: auto;
+        left: 0;
+
+        width: 71px;
+        height: 398px;
+    }
+
+
+    .stars .head .desc
+    {
+        width: calc(100% - 220px);
+        margin-left: auto;
+        padding-top: 57px;
+
+        text-align: right;
+    }
+
+
+    .stars .head .title
+    {
+        font-size: 100px;
+
+        z-index: 5;
+        top: auto;
+        bottom: 0;
+
+        word-break: break-all;
+    }
+
+
+    .stars .head .img
+    {
+        top: 0;
+        right: auto;
+        left: 0;
+    }
+
+
+    .stars .head .img img
+    {
+        width: 160px;
+    }
+
+
+    .stars .head .img:after
+    {
+        right: -100px;
+        bottom: 88px;
+    }
+
+
+    .stars .head:after
+    {
+        width: 120px;
+        height: 360px;
+    }
+
+
+    .stars .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+    .stars .row > *.empty
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        My system
+    ---------------*/
+    .my_system .head
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .my_system .head .desc
+    {
+        font-size: 24px;
+
+        margin-top: 20px;
+        padding: 0 40px;
+    }
+
+
+    .my_system .head:before
+    {
+        top: 90px;
+        left: 0;
+
+        width: 70px;
+        height: 157px;
+        margin-left: 0;
+    }
+
+
+    .my_system .head:after
+    {
+        top: -32px;
+        right: 0;
+
+        width: 169px;
+        height: 69px;
+        margin-right: 0;
+    }
+
+
+    .my_system .before,
+    .my_system .after
+    {
+        width: 240px;
+    }
+
+
+    .my_system .before .photo,
+    .my_system .after .photo
+    {
+        height: 372px;
+    }
+
+
+    .my_system .before .label,
+    .my_system .after .label
+    {
+        font-size: 24px;
+
+        width: 160px;
+        height: 52px;
+    }
+
+
+    .my_system .info
+    {
+        padding: 32px 0;
+    }
+
+
+    .my_system .block_title
+    {
+        font-size: 42px;
+    }
+
+
+    .my_system .block_title .dotted
+    {
+        width: 240px;
+    }
+
+
+    .my_system .block_title small
+    {
+        font-size: 24px;
+        line-height: 130%;
+
+        display: block;
+    }
+
+
+    .my_system .desc
+    {
+        margin-top: 24px;
+    }
+
+    .my_system .desc b
+    {
+        font-size: 18px;
+    }
+
+    .my_system .desc br
+    {
+        display: none;
+    }
+
+
+    .my_system .result
+    {
+        font-size: 24px;
+
+        margin-top: 28px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .section + .section
+    {
+        margin-top: 70px;
+    }
+
+
+    .contacts_info .title
+    {
+        display: block;
+
+        margin-bottom: 32px;
+
+        text-align: center;
+    }
+
+
+    .contacts_info .title .dotted
+    {
+        width: 214px;
+        margin: 4px auto 0;
+    }
+
+
+    .contacts_info .title span
+    {
+        display: block;
+    }
+
+
+    .contacts_info .data > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .contacts_info .title .sep + *
+    {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .data a
+    {
+        display: block;
+
+        width: 100%;
+    }
+
+
+    .contacts_info .data img
+    {
+        margin-right: 14px;
+    }
+
+
+    .contacts_info .socials
+    {
+        height: auto;
+        margin-top: 64px;
+    }
+
+
+    .contacts_info .socials:before,
+    .contacts_info .socials:after
+    {
+        display: none;
+    }
+
+
+    .contacts_info .socials a
+    {
+        width: 43px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% + 48px);
+        height: 360px;
+        margin-top: 70px;
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+
+
+
+    /*-------------
+        Courses
+    -------------*/
+    .courses .row
+    {
+        margin-left: 0;
+    }
+
+
+    .courses .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .courses .course .name
+    {
+        font-size: 24px;
+    }
+
+
+    .courses .start a
+    {
+        font-size: 28px;
+
+        width: 320px;
+        height: 60px;
+    }
+
+
+
+    /*-----------------
+        Course info
+    -----------------*/
+    .course_info .image
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding-bottom: 80%;
+    }
+
+
+    .course_info .about .title
+    {
+        display: block;
+
+        text-align: center;
+    }
+
+
+    .course_info .about .title .dotted
+    {
+        width: 214px;
+        margin: 4px auto 0;
+    }
+
+
+    .course_info .about .title small
+    {
+        font-size: 24px;
+    }
+
+
+    .course_info .about .title span
+    {
+        display: block;
+    }
+
+
+    .course_info .about .title .sep + *
+    {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        What stopping
+    -------------------*/
+    .what_stopping .title
+    {
+        font-size: 24px;
+
+        margin-bottom: 34px;
+        padding-bottom: 64px;
+    }
+
+
+    .what_stopping .title:before
+    {
+        top: auto;
+        right: auto;
+        bottom: 0;
+        left: 50%;
+
+        width: 237px;
+        height: 40px;
+        margin: 0;
+
+        transform: translateX(-50%);
+    }
+
+
+    .what_stopping .title:after
+    {
+        display: none;
+    }
+
+
+    .what_stopping ul li
+    {
+        padding-left: 32px;
+    }
+
+
+    .what_stopping ul li + li
+    {
+        margin-top: 16px;
+    }
+
+
+    .what_stopping .start a
+    {
+        font-size: 26px;
+
+        width: 320px;
+        height: 60px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article .name
+    {
+        font-size: 20px;
+    }
+
+
+    .articles .article .desc
+    {
+        min-height: 0;
+        margin-top: 20px;
+    }
+
+
+    .articles .article .link
+    {
+        text-align: center;
+    }
+
+
+    .articles .article .info
+    {
+        margin-top: 24px;
+        padding-top: 20px;
+    }
+
+
+    .articles .article .info .icon
+    {
+        width: 22px;
+        height: 22px;
+        margin-right: 8px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding-bottom: 88%;
+    }
+
+
+
+    /*--------------------------
+        I did it and you can
+    --------------------------*/
+    .i_did_you_can .title
+    {
+        font-size: 24px;
+
+        margin-bottom: 32px;
+        padding-bottom: 64px;
+    }
+
+
+    .i_did_you_can .title:before
+    {
+        top: auto;
+        right: auto;
+        bottom: 0;
+        left: 50%;
+
+        width: 237px;
+        height: 40px;
+        margin: 0;
+
+        transform: translateX(-50%);
+    }
+
+
+    .i_did_you_can .title:after
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        Quote
+    -----------*/
+    .quote
+    {
+        padding: 97px 0 45px;
+    }
+
+
+    .quote .text
+    {
+        font-size: 24px;
+    }
+
+
+    .quote .text:before
+    {
+        top: -48px;
+        left: 0;
+
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+    .quote .dotted
+    {
+        width: 280px;
+        margin-top: 32px;
+    }
+
+
+
+    /*------------------
+        About author
+    ------------------*/
+    .about_author .dotted
+    {
+        width: 200px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .image
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding-bottom: 88%;
+    }
+
+
+    .article_info .tags
+    {
+        left: 0;
+    }
+
+
+    .article_info .head .info
+    {
+        width: 100%;
+    }
+
+
+    .article_info .head .info .icon
+    {
+        width: 22px;
+        height: 22px;
+        margin-right: 8px;
+    }
+
+
+    .article_info .article_title
+    {
+        display: block;
+
+        margin-bottom: 40px;
+
+        text-align: center;
+    }
+
+
+    .article_info .article_title small
+    {
+        font-size: 24px;
+
+        display: block;
+    }
+
+
+    .article_info .article_title .dotted
+    {
+        width: 214px;
+        margin: 12px auto 0;
+    }
+
+
+    .article_info .article_title span
+    {
+        display: block;
+
+        width: 100%;
+    }
+
+
+    .article_info .article_title .sep + *
+    {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------------
+        Personal reviews
+    ----------------------*/
+    .personal_reviews .review
+    {
+        width: 280px;
+        padding-top: 23px;
+        padding-bottom: 60px;
+        padding-left: 0;
+    }
+
+    .personal_reviews .review ~ .review
+    {
+        display: none;
+    }
+
+
+    .personal_reviews .review:before
+    {
+        display: none;
+    }
+
+
+    .personal_reviews .review:after
+    {
+        top: auto;
+        right: auto;
+        bottom: 0;
+        left: 50%;
+
+        width: 237px;
+        height: 40px;
+        margin: 0;
+
+        transform: translateX(-50%);
+    }
+
+
+    .personal_reviews .review .photo
+    {
+        width: 100%;
+    }
+
+    .personal_reviews .review .photo:before
+    {
+        position: absolute;
+        z-index: -11;
+        top: -23px;
+        left: 23px;
+
+        display: block;
+
+        width: 100%;
+        height: 100%;
+
+        content: '';
+        pointer-events: none;
+
+        background: #d8c4be;
+    }
+
+
+    .personal_reviews .review .data
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .personal_reviews .review .text:before
+    {
+        right: -5px;
+        left: auto;
+    }
+
+
+    .personal_reviews .review .author
+    {
+        margin-top: 32px;
+
+        text-align: center;
+    }
+
+
+
+    /*-----------
+        Guide
+    -----------*/
+    .guide .image
+    {
+        width: calc(100% + 48px);
+        height: 570px;
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+
+
+    .guide .image:before,
+    .guide .image:after
+    {
+        display: none;
+    }
+
+
+    .guide .data
+    {
+        bottom: 52px;
+
+        width: calc(100% - 48px);
+        padding: 28px;
+
+        text-align: center;
+    }
+
+
+    .guide .pre_title
+    {
+        font-size: 16px;
+    }
+
+
+    .guide .title
+    {
+        font-size: 26px;
+    }
+
+
+    .guide .dotted
+    {
+        width: 214px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .guide .link
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------------
+        Related articles
+    ----------------------*/
+    .related_articles .block_title
+    {
+        display: block;
+
+        margin-bottom: 40px;
+
+        text-align: center;
+    }
+
+
+    .related_articles .block_title small
+    {
+        font-size: 24px;
+
+        display: block;
+    }
+
+
+    .related_articles .block_title .dotted
+    {
+        width: 214px;
+        margin: 12px auto 0;
+    }
+
+
+    .related_articles .block_title span
+    {
+        display: block;
+
+        width: 100%;
+    }
+
+
+    .related_articles .block_title .sep + *
+    {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+    .related_articles .row
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-bottom: 0;
+        margin-left: -24px;
+    }
+
+
+    .related_articles .row > *
+    {
+        width: 100%;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+
+    .related_articles .row > *:nth-child(3)
+    {
+        display: block;
+    }
+
+
+    .related_articles .article
+    {
+        padding-bottom: 40px;
+
+        background: linear-gradient(to right,  #06555a 0%,#129099 36%,#3a8489 77%,#055257 100%);
+    }
+
+
+    .related_articles .article .link
+    {
+        padding-top: 32px;
+    }
+
+
+    .related_articles .prev_next
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        Comments
+    --------------*/
+    .comments .block_title
+    {
+        font-size: 36px;
+
+        display: block;
+
+        margin-bottom: 40px;
+
+        text-align: center;
+    }
+
+
+    .comments .block_title small
+    {
+        font-size: 24px;
+
+        display: block;
+    }
+
+
+    .comments .block_title .dotted
+    {
+        width: 214px;
+        margin: 12px auto 0;
+    }
+
+
+    .comments .block_title span
+    {
+        display: block;
+
+        width: 100%;
+    }
+
+
+    .comments .block_title .sep + *
+    {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+    .comments .list .title span
+    {
+        display: block;
+
+        margin-left: 0;
+    }
+
+
+    .comments .comment
+    {
+        padding: 39px;
+    }
+
+
+    .comments .comment.children
+    {
+        margin-left: 0;
+    }
+
+
+    .comments .comment .photo + *
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .title
+    {
+        font-size: 42px;
+
+        display: block;
+
+        margin-bottom: 40px;
+
+        text-align: center;
+    }
+
+
+    .reviews .title small
+    {
+        font-size: 24px;
+
+        display: block;
+    }
+
+
+    .reviews .title span
+    {
+        display: block;
+    }
+
+
+    .reviews .title .dotted
+    {
+        width: 214px;
+        margin: 12px auto 0;
+    }
+
+
+
+    .reviews .videos .row
+    {
+        margin-bottom: -48px;
+        margin-left: 0;
+        padding-bottom: 12px;
+    }
+
+
+    .reviews .videos .row > *
+    {
+        width: 100%;
+        margin-bottom: 48px;
+        margin-left: 0;
+    }
+
+
+    .reviews .videos .video
+    {
+        padding: 48px 40px 64px;
+    }
+
+
+    .reviews .videos .video .before .desc,
+    .reviews .videos .video .after .desc
+    {
+        min-height: 0;
+    }
+
+
+    .reviews .videos .video .after
+    {
+        margin-top: 40px;
+    }
+
+
+    .reviews .videos .video .link
+    {
+        width: 240px;
+    }
+
+
+
+    /*---------------
+        Portfolio
+    ---------------*/
+    .portfolio .title
+    {
+        font-size: 42px;
+
+        display: block;
+
+        margin-bottom: 40px;
+
+        text-align: center;
+    }
+
+
+    .portfolio .title .dotted
+    {
+        width: 214px;
+        margin: 12px auto 0;
+    }
+
+
+    .portfolio .title .sep + *
+    {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .portfolio .title small
+    {
+        font-size: 24px;
+
+        display: block;
+    }
+
+
+
+    .portfolio .gallery .row,
+    .portfolio .gallery .row.big
+    {
+        margin-left: 0;
+    }
+
+
+    .portfolio .gallery .row > *,
+    .portfolio .gallery .row.big > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .portfolio .gallery .back
+    {
+        display: none;
+    }
+
+
+
+    .portfolio .items .row
+    {
+        margin-left: 0;
+    }
+
+
+    .portfolio .items .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-bottom: 68px;
+    }
+
+
+    footer .cont + .cont
+    {
+        margin-top: 24px;
+    }
+
+
+    footer .logo
+    {
+        width: 100%;
+    }
+
+
+    footer .logo img
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .menu
+    {
+        display: none;
+    }
+
+
+    footer .col
+    {
+        order: 3;
+
+        width: 100%;
+        margin-top: 32px;
+    }
+
+
+    footer .socials
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 32px;
+    }
+
+
+    footer .socials .items
+    {
+        justify-content: center;
+    }
+
+
+    footer .socials .title
+    {
+        font-size: 20px;
+    }
+
+
+    footer .socials .items a + a
+    {
+        margin-left: 30px;
+    }
+
+
+    footer .socials .items .icon
+    {
+        width: 35px;
+        height: 35px;
+    }
+
+
+    footer .contacts
+    {
+        width: 100%;
+    }
+
+
+    footer .contacts > *
+    {
+        justify-content: center;
+    }
+
+
+    footer .contacts a
+    {
+        order: 2;
+    }
+
+
+    footer .contacts .icon,
+    footer .contacts .email .icon
+    {
+        margin-right: 16px;
+        margin-left: 0;
+    }
+}
