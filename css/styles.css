@@ -285,12 +285,6 @@ button
 }
 
 
-.fancybox__slide
-{
-    padding: 40px;
-}
-
-
 .fancybox__content > .f-button.is-close-btn,
 .is-compact .fancybox__content > .f-button.is-close-btn
 {

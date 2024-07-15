@@ -1842,4 +1842,47 @@
         margin-right: 16px;
         margin-left: 0;
     }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 38px 26px;
+    }
+
+
+
+    /*--------------------
+        PopUp - Review
+    --------------------*/
+    .review_info .thumb
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .review_info .info
+    {
+        width: 100%;
+        margin-top: 28px;
+        padding: 0;
+    }
+
+
+    .review_info .before .label,
+    .review_info .after .label
+    {
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+
+    .review_info .text_block
+    {
+        margin-top: 40px;
+    }
 }
